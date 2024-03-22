@@ -2,6 +2,7 @@
 #include "PlayLineController.h"
 #include "HUD.h"
 #include <RenderingTools.h>
+#include "bakkesmod/plugin/bakkesmodplugin.h"
 
 vector<vector<Vector>> playLines = {};
 vector<Vector> currentPlayLine = {};
@@ -140,8 +141,11 @@ void PlayLineController::ShowPlayLines(CanvasWrapper& canvas)
 	if (camera.IsNull()) {
 		return;
 	}
+	
+	LinearColor lineColor = this->plugin->cvarManager->getCvar("rr_line_color").getColorValue();
+	float lineThickness = this->plugin->cvarManager->getCvar("rr_line_thickness").getFloatValue();
 
-	canvas.SetColor(255, 255, 0, 255);
+	canvas.SetColor(lineColor);
 
 	if (playLines.size() > 0) {
 		for (int i = 0; i < playLines.size(); i++) {
@@ -149,7 +153,7 @@ void PlayLineController::ShowPlayLines(CanvasWrapper& canvas)
 				for (int j = 0; j < playLines[i].size() - 1; j++) {
 
 					RT::Frustum frustum = RT::Frustum(canvas, camera);
-					RT::Line line = RT::Line(playLines[i][j], playLines[i][j + 1]);
+					RT::Line line = RT::Line(playLines[i][j], playLines[i][j + 1], lineThickness);
 
 					line.DrawWithinFrustum(canvas, frustum);
 				}
@@ -161,7 +165,7 @@ void PlayLineController::ShowPlayLines(CanvasWrapper& canvas)
 	if (currentPlayLine.size() > 0) {
 		for (int k = 0; k < currentPlayLine.size() - 1; k++) {
 			RT::Frustum frustum = RT::Frustum(canvas, camera);
-			RT::Line line = RT::Line(currentPlayLine[k], currentPlayLine[k + 1]);
+			RT::Line line = RT::Line(currentPlayLine[k], currentPlayLine[k + 1], lineThickness);
 
 			line.DrawWithinFrustum(canvas, frustum);
 		}

@@ -44,6 +44,9 @@ void ReplayReview::onLoad()
 	controllers.push_back(cameraFocusController);
 	controllers.push_back(hideHudController);
 	
+	cvarManager->registerCvar("rr_line_color", "#FFFF00", "Drawing line color");
+	cvarManager->registerCvar("rr_line_thickness", "1.0", "Thickness of the line");
+
 	cvarManager->registerNotifier("draw_line", std::bind(&PlayLineController::OnDrawPlayLine, playLineController, std::placeholders::_1), "Starts/stops drawing play line", PERMISSION_REPLAY);
 	cvarManager->registerNotifier("clear_line", std::bind(&PlayLineController::OnClearPlayLine, playLineController, std::placeholders::_1), "Clears the play line", PERMISSION_REPLAY);
 	cvarManager->registerNotifier("show_player_boost", std::bind(&PlayerBoostController::OnDrawPlayerBoost, playerBoostController, std::placeholders::_1), "Shows player boost amounts", PERMISSION_REPLAY);

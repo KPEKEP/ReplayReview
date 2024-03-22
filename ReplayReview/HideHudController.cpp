@@ -1,6 +1,6 @@
 #include "HideHudController.h"
 
-HUD::HUD_ITEM hideHudItem = { "O", "Hide HUD", true };
+HUD::HUD_ITEM hideHudItem = { "O", "Hide HUD", false };
 int hudItemIndex;
 
 

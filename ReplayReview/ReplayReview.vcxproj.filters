@@ -13,182 +13,220 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Controllers">
-      <UniqueIdentifier>{4e8ff685-0e57-434b-83cb-5ff7e5675d08}</UniqueIdentifier>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{65407bae-1075-4bdd-9dfd-acc5a636ec02}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Controllers">
-      <UniqueIdentifier>{71717e41-05b3-4251-adbb-bee67013fc0c}</UniqueIdentifier>
+    <Filter Include="Plugin">
+      <UniqueIdentifier>{a1b543a5-c4b7-4cf1-8adf-c2f26cf59952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin\header">
+      <UniqueIdentifier>{46d01869-81e6-496b-b2c1-aeeb13d6b983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin\src">
+      <UniqueIdentifier>{33ae5c6a-718c-410e-bdb8-9c032f65c710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderTools">
+      <UniqueIdentifier>{fbc4acf7-e630-4761-9c79-5293da8a26d1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Chevron.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Circle.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="ReplayReview.cpp">
+      <Filter>Plugin\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Circle2D.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="SetCameraController.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Cone.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="PlayerBoostController.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Cube.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="HideHudController.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Cylinder.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="PlayLineController.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Frustum.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Grid.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Line.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Matrix3.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Plane.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Sphere.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\Triangle.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Objects\VisualCamera.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Extra\CanvasExtensions.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Extra\RenderingAssistant.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Extra\RenderingMath.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\RenderingTools-master\Extra\WrapperStructsExtensions.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="CrosshairController.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="HUD.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ReplayReview.cpp">
+    <ClCompile Include="CameraFocusController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CameraFocusController.cpp">
-      <Filter>Source Files\Controllers</Filter>
+    <ClCompile Include="ControllerBase.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CrosshairController.cpp">
-      <Filter>Source Files\Controllers</Filter>
+    <ClCompile Include="..\..\..\RenderingTools\Extra\CanvasExtensions.cpp">
+      <Filter>RenderTools</Filter>
     </ClCompile>
-    <ClCompile Include="HideHudController.cpp">
-      <Filter>Source Files\Controllers</Filter>
+    <ClCompile Include="..\..\..\RenderingTools\Extra\RenderingAssistant.cpp">
+      <Filter>RenderTools</Filter>
     </ClCompile>
-    <ClCompile Include="PlayerBoostController.cpp">
-      <Filter>Source Files\Controllers</Filter>
+    <ClCompile Include="..\..\..\RenderingTools\Extra\RenderingMath.cpp">
+      <Filter>RenderTools</Filter>
     </ClCompile>
-    <ClCompile Include="PlayLineController.cpp">
-      <Filter>Source Files\Controllers</Filter>
+    <ClCompile Include="..\..\..\RenderingTools\Extra\WrapperStructsExtensions.cpp">
+      <Filter>RenderTools</Filter>
     </ClCompile>
-    <ClCompile Include="SetCameraController.cpp">
-      <Filter>Source Files\Controllers</Filter>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Chevron.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Circle.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Circle2D.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Cone.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Cube.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Cylinder.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Frustum.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Grid.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Line.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Matrix3.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Plane.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Sphere.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\Triangle.cpp">
+      <Filter>RenderTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RenderingTools\Objects\VisualCamera.cpp">
+      <Filter>RenderTools</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplayReview.h">
+      <Filter>Plugin\header</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.h">
+      <Filter>Plugin\header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetCameraController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBoostController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLineController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HideHudController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="HUD.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Chevron.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Circle.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Circle2D.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Cone.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Cube.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Cylinder.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Frustum.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Grid.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Line.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Matrix3.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Plane.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Sphere.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\Triangle.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Objects\VisualCamera.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\RenderingTools.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Extra\CanvasExtensions.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Extra\RenderingAssistant.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Extra\RenderingMath.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\RenderingTools-master\Extra\WrapperStructsExtensions.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ReplayReview.h">
+    <ClInclude Include="CrosshairController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CameraFocusController.h">
-      <Filter>Header Files\Controllers</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ControllerBase.h">
-      <Filter>Header Files\Controllers</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CrosshairController.h">
-      <Filter>Header Files\Controllers</Filter>
+    <ClInclude Include="..\..\..\RenderingTools\RenderingTools.h">
+      <Filter>RenderTools</Filter>
     </ClInclude>
-    <ClInclude Include="HideHudController.h">
-      <Filter>Header Files\Controllers</Filter>
+    <ClInclude Include="..\..\..\RenderingTools\Extra\CanvasExtensions.h">
+      <Filter>RenderTools</Filter>
     </ClInclude>
-    <ClInclude Include="PlayerBoostController.h">
-      <Filter>Header Files\Controllers</Filter>
+    <ClInclude Include="..\..\..\RenderingTools\Extra\RenderingAssistant.h">
+      <Filter>RenderTools</Filter>
     </ClInclude>
-    <ClInclude Include="PlayLineController.h">
-      <Filter>Header Files\Controllers</Filter>
+    <ClInclude Include="..\..\..\RenderingTools\Extra\RenderingMath.h">
+      <Filter>RenderTools</Filter>
     </ClInclude>
-    <ClInclude Include="SetCameraController.h">
-      <Filter>Header Files\Controllers</Filter>
+    <ClInclude Include="..\..\..\RenderingTools\Extra\WrapperStructsExtensions.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Chevron.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Circle.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Circle2D.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Cone.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Cube.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Cylinder.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Frustum.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Grid.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Line.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Matrix3.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Plane.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Sphere.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\Triangle.h">
+      <Filter>RenderTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RenderingTools\Objects\VisualCamera.h">
+      <Filter>RenderTools</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ReplayReview.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\RenderingTools\.gitignore">
+      <Filter>RenderTools</Filter>
+    </None>
+    <None Include="..\..\..\RenderingTools\LICENSE">
+      <Filter>RenderTools</Filter>
+    </None>
+    <None Include="..\..\..\RenderingTools\README.md">
+      <Filter>RenderTools</Filter>
+    </None>
   </ItemGroup>
 </Project>
